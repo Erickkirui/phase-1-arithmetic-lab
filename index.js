@@ -19,12 +19,8 @@ let mod = ""
 let num3 = 24
 let num4 = 5
 mod = num3 % num4
-console.log(mod);
+//console.log(mod);
 
-let max = [4, 13, 10, 3, 8, 6, 20, 20, 14];
-let highest = max[0];   // Initialize highest to the first element in the array
-for (let i = 1; i < max.length; i++) {
-  if (max[i] > highest) {
-    highest = max[i];
-  }
-}
+
+const max=Math.max(0,2,3,4,18,20)
+console.log(max)
